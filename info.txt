@@ -1,0 +1,3 @@
+per creare la build
+
+npm run build2

@@ -1,0 +1,26 @@
+{
+	"name": "Mini Compass Data Lake OAuth2",
+	"version": "1.0",
+	"manifest_version": 3,
+	"action": {
+		"default_popup": "index.html",
+		"default_icon": "datalake32.png"
+	},
+	"icons": {
+		"16": "datalake16.png",
+		"32": "datalake32.png",
+		"48": "datalake48.png",
+		"128": "datalake128.png"
+	},
+	"background": {
+		"service_worker": "background.js"
+	},
+	"permissions": [
+		"identity",
+		"storage",
+		"notifications"
+	],
+	"host_permissions":[
+		"https://*/*"
+	]
+}
